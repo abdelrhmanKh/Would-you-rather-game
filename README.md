@@ -2,8 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The Project is about a game that make choose Two Too Chooses and compare between your Choose and other 
-Users
+It Website that you login into with User and Start Answer other people Question two Choose from two answers Like cake or pizza and you choose one of those, you also can create A question see how many people answered this and who choose there is a leaderboard to compare players score
 
 ## Available Scripts
 
