@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main-content {
+  text-align: center;
+  margin: 0 auto;
+  width: 480px;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+ul {
+  padding-left: 0;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav {
+  margin: 10px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+.nav-user {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 5px 0 10px;
+}
+
+.nav .avatar {
+  width: 40px;
+  height: 40px;
+}
+
+/*Home*/
+
+button {
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, .29);
+  cursor: pointer;
+  background: #fff;
+  font-size: 16px;
+  width: 240px;
+  position: relative;
+  outline: 0;
+}
+
+.btn-default {
+  padding: 6px;
+  color: #1a74c1;
+}
+
+.btn-group .btn-selected {
+  color: #1a74c1
+}
+
+.btn-group .btn-default {
+  padding: 10px;
+  color: #000;
+}
+
+.title-item {
+  height: 162px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.questions-list .title-item, .main-content .title-item {
+  display: block;
+}
+
+.users-list .title-item {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title-body {
+  padding: 12px;
+}
+
+.title-header {
+  height: 40px;
+  line-height: 40px;
+  background: #1a74c1;
+  color: #fff;
+}
+
+.title-left {
+  width: 33%;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+}
+
+.question-body {
+  width: 62%;
+  float: right;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.would-you {
+  font-weight: bold;
+}
+
+.question-text {
+  margin: 12px 0;
+}
+
+.choose-container {
+  margin: 10px;
+  border-radius: 6px;
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #c2c2c2;
+  position: relative;
+}
+
+.choose-container.selected {
+  border-color: transparent;
+  color: #fff;
+  background: #1a74c1;
+}
+
+.choose {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.choose-selected {
+  color: #1a74c1;
+}
+
+.question-detail {
+  height: 300px;
+}
+
+.question-detail .title-left {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.users-list .title-item {
+  padding: 10px;
+}
+
+.title-section {
+  display: inline-block;
+}
+
+.title-section>* {
+  margin-bottom: 10px;
+}
+
+.title-section.section-1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-right: 1px solid #ccc;
+}
+
+.title-section.section-1, .title-section.section-3 {
+  width: 25%;
+}
+
+.title-section.section-3 {
+  width: 24%;
+  border: 1px solid #ccc;
+  height: 85px;
+  margin-top: 38px;
+  vertical-align: top;
+}
+
+.title-section.section-2 {
+  vertical-align: top;
+  width: 47%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.title-section.section-2 .user-name {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title-section.section-2 .label {
+  padding: 10px 0px;
+  display: inline-block;
+  width: 180px;
+}
+
+.total-score-header {
+  background: #1a74c1;
+  padding: 10px;
+  color: #fff;
+}
+
+.total-score-count {
+  padding: 15px;
+}
+
+form {
+  padding: 15px;
+  text-align: left;
+}
+
+input {
+  display: block;
+  width: 95%;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.new-question {
+  height: 272px;
+}
+
+.new-question button {
+  width: 400px;
+  margin-left: 22px;
+  color: #1a74c1;
+  border: 1px solid #1a74c1;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px;
+  width: 250px;
+  margin: 10px;
+}
+
+.user-select div {
+  padding: 18px;
+}
+
+.title-item.login {
+  height: 250px;
+  flex-direction: column;
+  padding: 30px;
+  align-items: stretch;
+}
+
+.title-item.login .title-header {
+  padding: 10px;
+}
+
+.title-item.login button {
+  margin-top: 30px;
+  padding: 10px;
+  color: #1a74c1;
+  border-color: #1a74c1;
+}
+
+.your-vote {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.choose-container.selected .your-vote {
+  display: block;
+}
+
+.selected {
+  font-weight: bold;
+  padding: 20px
+}
+
+.user-info {
+  padding-left: 200px;
+}
+
+.nav .selected {
+  color: #1a74c1;
+}
